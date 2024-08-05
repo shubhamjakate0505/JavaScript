@@ -26,7 +26,7 @@ function Savedb(data){
         if(internetspeed>4){
             success("data Was Saved");
         }else{
-            failer("Connection Was losse")
+            failer("Connection Was losse");
         }
     }) 
 }
