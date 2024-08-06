@@ -29,3 +29,5 @@
     // Call resolve(value) when the operation is successful
     // Call reject(error) when the operation fails
   });
+
+## then()&catch():
