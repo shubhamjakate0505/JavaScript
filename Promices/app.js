@@ -17,7 +17,7 @@
 
 // Refactring with Promices
 
-function Savedb(data){
+/* function Savedb(data){
    
     // console.log(internetspeed);
     return new Promise((success,failer)=>{
@@ -30,4 +30,36 @@ function Savedb(data){
         }
     }) 
 }
-// Savedb("Shubham");
+Savedb("Shubham")
+.then(()=>{
+    console.log("Promices was Resolved : Data was Saved")
+}
+)
+.catch(()=>{
+    console.log("Promices was not Resolved : Data was not save");
+})
+; */
+
+
+
+
+
+// -------------------Callback Hell------------------------------
+let h1=document.querySelector('h1');
+// h1.style.color="red";
+function change(color,delay,nextColor){
+    setTimeout(()=>{
+        h1.style.color=color;
+       if(nextColor) nextColor();//when function doesnot take last parament then do not changee color
+    },delay);
+   
+}
+setTimeout(change("red",1000,()=>{
+    setTimeout(change("blue",1000,()=>{
+        setTimeout(change("yellow",1000,()=>{
+            setTimeout(change("green",1000))
+        }))
+    }));
+}));
+// setTimeout(change("blue",2020));
+// setTimeout(change("pink",3030));

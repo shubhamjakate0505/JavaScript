@@ -15,7 +15,6 @@
   - Increased complexity makes debugging and maintaining the code harder.
 - **Solution:** 
   - To avoid callback hell, you can use Promises or async/await.
-
 ## Promises
 - **Definition:** 
   - The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
@@ -31,3 +30,11 @@
   });
 
 ## then()&catch():
+## asyn()
+## Hanling Error
+
+# API
+Api Nathing but the Sending Request to the Server and Getting Responces for the Server,Responces data contains in json formate
+
+**json:**
+- Json data are just like object only diff is in json data contains both the key and pairs in string formate 
