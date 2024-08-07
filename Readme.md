@@ -38,3 +38,10 @@ Api Nathing but the Sending Request to the Server and Getting Responces for the 
 
 **json:**
 - Json data are just like object only diff is in json data contains both the key and pairs in string formate 
+**Accessing Data From Json:**
+- Json.parse(data) Method 
+  To parse a String data into a js object
+- Json.stringify(json)method
+  To parse the a Js Object data Into Json
+**fetch(url):**
+For send the Request
